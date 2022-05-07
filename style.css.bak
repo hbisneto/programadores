@@ -1,0 +1,151 @@
+ @import url("https://github.com/hbisneto/Programadores/blob/27510b49724a704747e3c0c34bda45872615bd5f/bahnschrift.woff");
+    
+
+    body {
+      font-family: Personal;
+      color: white;
+      background-image: linear-gradient(to right, #76bd05, #38464F);
+      background-size: 500% 100%;
+      animation: gradient-ani 6s infinite alternate;
+      font-family: "bahnschrift";
+    }
+
+
+    @keyframes gradient-ani {
+      0%{
+          background-position-x: 0%;
+      }
+      100%{
+          background-position-x: 80%;
+      }
+
+    }
+
+    #title {
+      font-weight: bolder;
+    }
+
+    
+
+/*CSS Media Query
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  #logo {
+      height: 70px;
+  }   
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  #logo {
+    height: 68px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  #logo {
+    height: 65px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  #logo {
+    height: 50px;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  #logo {
+    height: 45px;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  #logo {
+    height: 30px;
+  }
+}
+
+@media (min-width: 200.1px) and (max-width: 319.9px) {
+  
+  /* CSS */
+  #logo {
+    height: 25px;
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 5px;               /* width of the entire scrollbar */
+  scrollbar-shadow-color: black
+}
+
+body::-webkit-scrollbar-track {
+  background: white;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #38464F;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 0px solid white;  /* creates padding around scroll thumb */
+}
+
+.offcanvas-header,.offcanvas-title {
+  background-color: #38464F !important;
+}
+
+.nav-link {
+  color: #38464F !important;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.offcanvas-body {
+  background-color: #8CCE24 !important;
+}
+
+.navbar,.navbar-nav {
+  background-color: #8CCE24 !important;
+}
