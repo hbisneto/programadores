@@ -19,8 +19,8 @@
     body {
       background-color: #FF8F00;
       font-family: Personal;
-      color: #663333;
-      background-image: linear-gradient(to right, #FF8F00, rgb(192, 138, 241));
+      color: white;
+      background-image: linear-gradient(to right, #76bd05, #38464F);
       background-size: 500% 100%;
       animation: gradient-ani 3s infinite alternate;
       font-family: "bahnschrift";
@@ -32,7 +32,7 @@
           background-position-x: 0%;
       }
       100%{
-          background-position-x: 70%;
+          background-position-x: 80%;
       }
 
     }
@@ -142,9 +142,28 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #FF8F00;    /* color of the scroll thumb */
+  background-color: #38464F;    /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
   border: 0px solid white;  /* creates padding around scroll thumb */
+}
+
+.offcanvas-header,.offcanvas-title {
+  background-color: #38464F !important;
+}
+
+.nav-link {
+  color: #38464F !important;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.offcanvas-body {
+  background-color: #8CCE24 !important;
+}
+
+.navbar,.navbar-nav {
+  background-color: #8CCE24 !important;
 }
 
 
@@ -162,7 +181,7 @@ body::-webkit-scrollbar-thumb {
           </button>
           <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header bg-dark">
-              <h5 class="offcanvas-title bg-dark title" id="offcanvasNavbarLabel">Programadores - Menu</h5>
+              <h5 class="offcanvas-title bg-dark title" id="offcanvasNavbarLabel">Menu</h5>
               <button type="button" class="btn-close text-reset bg-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
@@ -171,13 +190,13 @@ body::-webkit-scrollbar-thumb {
                   <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://chat.whatsapp.com/FEOXvRb35ju7uDRyVaSquv">Grupo</a>
+                  <a class="nav-link" href="GRUPO_PROGRAMADORES_URL">Grupo</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://chat.whatsapp.com/FEOXvRb35ju7uDRyVaSquv">Materiais</a>
+                  <a class="nav-link" href="#">Materiais</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://chat.whatsapp.com/FEOXvRb35ju7uDRyVaSquv">Contribuidores</a>
+                    <a class="nav-link" href="#">Contribuidores</a>
                   </li>
               </ul>
             </div>
@@ -256,7 +275,7 @@ body::-webkit-scrollbar-thumb {
                   <div class="card-body">
                     <h5 class="card-title">Materiais de Estudo</h5>
                     <p class="card-text">Navegue entre as linguagens e encontre os materiais que podem te ajudar.</p>
-                    <a href="https://chat.whatsapp.com/FEOXvRb35ju7uDRyVaSquv" class="btn btn-primary">Navegar...</a>
+                    <a href="#" class="btn btn-primary">Navegar...</a>
                   </div>
                 </div>
               </div>
@@ -265,7 +284,7 @@ body::-webkit-scrollbar-thumb {
                   <div class="card-body">
                     <h5 class="card-title">Grupo WhatsApp</h5>
                     <p class="card-text">Entre no grupo do WhatsApp.</p>
-                    <a href="https://chat.whatsapp.com/FEOXvRb35ju7uDRyVaSquv" class="btn btn-primary">Entrar no grupo...</a>
+                    <a href="#" class="btn btn-primary">Entrar no grupo...</a>
                   </div>
                 </div>
               </div>
@@ -274,7 +293,7 @@ body::-webkit-scrollbar-thumb {
                   <div class="card-body">
                     <h5 class="card-title">Nudes</h5>
                     <p class="card-text">Mande seu NUDES agora mesmo. Não espere mais ;)</p>
-                    <a href="https://chat.whatsapp.com/FEOXvRb35ju7uDRyVaSquv" class="btn btn-primary">SEND NUDES...</a>
+                    <a href="#" class="btn btn-primary">SEND NUDES...</a>
                   </div>
                 </div>
               </div>
@@ -431,7 +450,7 @@ body::-webkit-scrollbar-thumb {
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2022 Copyright:
-      <a class="text-white" href="https://chat.whatsapp.com/FEOXvRb35ju7uDRyVaSquv">Programadores</a>
+      <a class="text-white" href="GRUPO_PROGRAMADORES_URL/">Programadores</a>
     </div>
     <!-- Copyright -->
   </footer>
