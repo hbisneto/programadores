@@ -6,7 +6,7 @@
       color: white;
       background-image: linear-gradient(to right, #76bd05, #38464F);
       background-size: 500% 100%;
-      animation: gradient-ani 3s infinite alternate;
+      animation: gradient-ani 6s infinite alternate;
       font-family: "bahnschrift";
     }
 
