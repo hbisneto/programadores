@@ -1,0 +1,243 @@
+#home {
+      background-color: #38464F;
+      font-family: bahnschrift;
+      color: white;
+      background-image: linear-gradient(to right, #76bd05, #38464F);
+      background-size: 500% 100%;
+      animation: gradient-ani 6s infinite alternate;
+      font-family: "bahnschrift";
+      overflow: hidden;
+    }
+
+
+    @keyframes gradient-ani {
+      0%{
+          background-position-x: 0%;
+      }
+      100%{
+          background-position-x: 80%;
+      }
+
+    }
+
+    #title {
+      font-weight: bolder;
+    }
+
+    
+
+/*CSS Media Query
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  #logo {
+      height: 70px;
+  }   
+  #pass_login,#nome_login {
+    width: 80%;
+  }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  #logo {
+    height: 68px;
+  }
+  #pass_login,#nome_login {
+    width: 80%;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  #logo {
+    height: 65px;
+  }
+  #pass_login,#nome_login {
+    width: 80%;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  #logo {
+    height: 50px;
+  }
+  #pass_login,#nome_login {
+    width: 80%;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  #logo {
+    height: 45px;
+  }
+  #pass_login,#nome_login {
+    width: 80%;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  #logo {
+    height: 30px;
+  }
+  #pass_login,#nome_login {
+    width: 80%;
+  }
+}
+
+@media (min-width: 200.1px) and (max-width: 319.9px) {
+  
+  /* CSS */
+  #logo {
+    height: 25px;
+  }
+
+  #login-box {
+    width: 100%;
+  }
+
+}
+
+body::-webkit-scrollbar {
+  width: 5px;               /* width of the entire scrollbar */
+  scrollbar-shadow-color: black
+}
+
+body::-webkit-scrollbar-track {
+  background: white;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #38464F;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 0px solid white;  /* creates padding around scroll thumb */
+}
+
+.offcanvas-header,.offcanvas-title {
+  background-color: #38464F !important;
+}
+
+.nav-link {
+  color: #38464F !important;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.offcanvas-body {
+  background-color: #8CCE24 !important;
+}
+
+.navbar,.navbar-nav {
+  background-color: #8CCE24 !important;
+}
+
+#login-box {
+  background-color: #a6ff8b3f;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 10px;
+  flex-direction: row;
+  margin: 20px auto;
+  padding: 34px 0px 10px 0px;
+  display: block;
+  animation: home .5s;
+}
+
+#pass_login,#nome_login {
+  border: none;
+  padding: 10px 0px 10px 4px;
+  color: #224407;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+#pass_login:focus, #nome_login:focus {
+  background-color: #eaffc8;
+  border-style: none;
+  outline: none;
+  transition: 0.5s;
+  box-shadow: 0 0 5px #ffffff;
+}
+
+#enter {
+  color: white;
+  background-color: #224407;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+#enter:hover {
+  background-color: #8CCE24;
+  transition: 0.5s;
+  color: #224407;
+}
+
+#index {
+  background-color: #3e7a0d;
+  font-family: bahnschrift;
+  color: white;
+}
+
+#page {
+  display: none;
+  animation: home .5s;
+}
+
+@keyframes home {
+  from {
+      opacity: 0;
+      transform: translate3d(0, 300px, 0);
+      background-color: black;
+  }
+
+  to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+  }
+}

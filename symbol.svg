@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="50mm" height="50mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 5000 5000"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#38464F;stroke-width:105.83;stroke-miterlimit:22.9256}
+    .fil3 {fill:none}
+    .fil4 {fill:#38464F}
+    .fil1 {fill:#8CCE24}
+    .fil0 {fill:#B4F654}
+    .fil2 {fill:#DFFBB5}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M2493.87 1377.86l768.11 436.5 768.12 436.52 0 873.04 0 873.05 -768.12 436.52 -768.11 436.5 -768.12 -436.5 -768.12 -436.52 0 -873.05 0 -873.04 768.12 -436.52 768.12 -436.5z"/>
+   </clipPath>
+    <clipPath id="id1">
+     <path d="M2493.87 1537.12l698.05 396.69 698.05 396.7 0 793.41 0 793.41 -698.05 396.71 -698.05 396.69 -698.06 -396.69 -698.05 -396.71 0 -793.41 0 -793.41 698.05 -396.7 698.06 -396.69z"/>
+    </clipPath>
+    <clipPath id="id2">
+     <path d="M2493.87 1377.86l768.11 436.5 768.12 436.52 0 873.04 0 873.05 -768.12 436.52 -768.11 436.5 -768.12 -436.5 -768.12 -436.52 0 -873.05 0 -873.04 768.12 -436.52 768.12 -436.5z"/>
+    </clipPath>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil0" points="2493.87,1377.86 3261.98,1814.36 4030.1,2250.88 4030.1,3123.92 4030.1,3996.97 3261.98,4433.49 2493.87,4869.99 1725.75,4433.49 957.63,3996.97 957.63,3123.92 957.63,2250.88 1725.75,1814.36 "/>
+  <g style="clip-path:url(#id0)">
+   <g id="_3012119477904">
+    <polygon id="_1" class="fil1" points="2493.87,1537.12 3191.92,1933.81 3889.97,2330.51 3889.97,3123.92 3889.97,3917.33 3191.92,4314.04 2493.87,4710.73 1795.81,4314.04 1097.76,3917.33 1097.76,3123.92 1097.76,2330.51 1795.81,1933.81 "/>
+   </g>
+   <g style="clip-path:url(#id1)">
+    <g>
+     <rect class="fil2 str0" transform="matrix(-1.59025 -0.945568 1.59025 -0.945568 -1154.5 4658.19)" width="877.92" height="877.92"/>
+    </g>
+   </g>
+   <g style="clip-path:url(#id2)">
+    <polygon class="fil3" points="2493.87,1537.12 3191.92,1933.81 3889.97,2330.51 3889.97,3123.92 3889.97,3917.33 3191.92,4314.04 2493.87,4710.73 1795.81,4314.04 1097.76,3917.33 1097.76,3123.92 1097.76,2330.51 1795.81,1933.81 "/>
+    <rect class="fil2 str0" transform="matrix(-1.74985 -1.04047 1.74985 -1.04047 2493.86 3163.99)" width="877.92" height="877.92"/>
+   </g>
+  </g>
+  <polygon class="fil3 str0" points="2493.87,1377.86 3261.98,1814.36 4030.1,2250.88 4030.1,3123.92 4030.1,3996.97 3261.98,4433.49 2493.87,4869.99 1725.75,4433.49 957.63,3996.97 957.63,3123.92 957.63,2250.88 1725.75,1814.36 "/>
+  <rect class="fil4" x="2437.86" y="406.64" width="112.01" height="2013.85"/>
+  <rect class="fil4" transform="matrix(0.437229 -1.42602 1.79814 0.551325 2769.68 3342.6)" width="75.1" height="1144.08"/>
+  <rect class="fil4" transform="matrix(-0.437229 -1.42602 -1.79814 0.551325 2218.05 3342.59)" width="75.1" height="1144.08"/>
+  <rect class="fil4" x="2437.86" y="3317.62" width="112.01" height="1350.55"/>
+  <rect class="fil1" x="2437.86" y="62.27" width="112.01" height="192.21"/>
+ </g>
+</svg>
