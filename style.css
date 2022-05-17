@@ -1,243 +1,240 @@
-#home {
-      background-color: #38464F;
-      font-family: bahnschrift;
-      color: white;
-      background-image: linear-gradient(to right, #76bd05, #38464F);
-      background-size: 500% 100%;
-      animation: gradient-ani 6s infinite alternate;
-      font-family: "bahnschrift";
-      overflow: hidden;
-    }
-
-
-    @keyframes gradient-ani {
-      0%{
-          background-position-x: 0%;
-      }
-      100%{
-          background-position-x: 80%;
-      }
-
-    }
-
-    #title {
-      font-weight: bolder;
-    }
-
-    
-
-/*CSS Media Query
-
-
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-@media (min-width: 1281px) {
-  
-  /* CSS */
-  #logo {
-      height: 70px;
-  }   
-  #pass_login,#nome_login {
-    width: 80%;
+html
+  {
+    transform:rotateZ(360deg);
+    overflow-x:hidden;
+  }
+#home
+{
+  background-color:#38464f;
+  font-family:bahnschrift;
+  color:#fff;
+  background-image:linear-gradient(to right,#76bd05,#38464f);
+  background-size:500% 100%;
+  animation:gradient-ani 6s infinite alternate;
+  font-family:bahnschrift;
+}
+@keyframes gradient-ani
+{
+  0%
+  {
+    background-position-x:0%;
+  }
+  100%
+  {
+    background-position-x:80%;
   }
 }
-
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-  
-  /* CSS */
-  #logo {
-    height: 68px;
+#title
+{
+  font-weight:bolder;
+}
+@media
+(min-width:1281px)
+{
+  #logo
+  {
+    height:70px;
   }
-  #pass_login,#nome_login {
-    width: 80%;
+  #nome_login,#pass_login
+  {
+    width:80%;
+  }
+  #login-box
+  {
+    margin:20px auto;
   }
 }
-
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  
-  /* CSS */
-  #logo {
-    height: 65px;
+@media 
+(min-width:1025px) and (max-width:1280px)
+{
+  #logo
+  {
+    height:68px;
   }
-  #pass_login,#nome_login {
-    width: 80%;
+  #nome_login,
+  #pass_login
+  {
+    width:80%;
   }
-}
-
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-  /* CSS */
-  #logo {
-    height: 50px;
-  }
-  #pass_login,#nome_login {
-    width: 80%;
+  #login-box
+  {
+    margin:20px auto;
   }
 }
-
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-  
-  /* CSS */
-  #logo {
-    height: 45px;
+@media (min-width:768px) and (max-width:1024px)
+{
+  #logo
+  {
+    height:65px;
   }
-  #pass_login,#nome_login {
-    width: 80%;
+  #nome_login,
+  #pass_login
+  {
+    width:80%;
   }
-}
-
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 480px) {
-  
-  /* CSS */
-  #logo {
-    height: 30px;
-  }
-  #pass_login,#nome_login {
-    width: 80%;
+  #login-box
+  {
+    margin:20px auto;
   }
 }
-
-@media (min-width: 200.1px) and (max-width: 319.9px) {
-  
-  /* CSS */
-  #logo {
-    height: 25px;
+@media (min-width:768px) and (max-width:1024px) and (orientation:landscape)
+{
+  #logo
+  {
+    height:50px;
   }
-
-  #login-box {
-    width: 100%;
+  #nome_login,#pass_login
+  {
+    width:80%;
   }
-
+  #login-box
+  {
+    margin:20px auto;
+  }
 }
-
-body::-webkit-scrollbar {
-  width: 5px;               /* width of the entire scrollbar */
-  scrollbar-shadow-color: black
+@media (min-width:481px) and (max-width:767px)
+{
+  #logo
+  {
+    height:45px;
+  }
+  #nome_login,#pass_login
+  {
+    width:80%;
+  }
+  #login-box
+  {
+    margin:20px auto;
+  }
 }
-
-body::-webkit-scrollbar-track {
-  background: white;        /* color of the tracking area */
+@media (min-width:320px) and (max-width:480px)
+{
+  #logo
+  {
+    height:30px;
+  }
+  #nome_login,#pass_login
+  {
+    width:80%;
+  }
+  #login-box
+  {
+    margin:auto;
+  }
 }
-
-body::-webkit-scrollbar-thumb {
-  background-color: #38464F;    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 0px solid white;  /* creates padding around scroll thumb */
+@media (min-width:200.1px) and (max-width:319.9px)
+{
+  #logo
+  {
+    height:25px;
+  }
+  #login-box
+  {
+    width:100%;
+    margin:auto;
+  }
 }
-
-.offcanvas-header,.offcanvas-title {
-  background-color: #38464F !important;
+body::-webkit-scrollbar
+{
+  width:5px;
+  scrollbar-shadow-color:black;
 }
-
-.nav-link {
-  color: #38464F !important;
+body::-webkit-scrollbar-track
+{
+  background:#fff;
+}
+body::-webkit-scrollbar-thumb
+{
+  background-color:#38464f;
+  border-radius:20px;
+  border:0 solid #fff;
+}
+.offcanvas-header,.offcanvas-title
+{
+  background-color:#38464f!important;
+}
+.nav-link
+{
+  color: #38464f !important;
   font-size: 18px;
   text-transform: uppercase;
   font-weight: bolder;
 }
-
-.offcanvas-body {
-  background-color: #8CCE24 !important;
+.offcanvas-body
+{
+  background-color:#8cce24!important;
 }
-
-.navbar,.navbar-nav {
-  background-color: #8CCE24 !important;
+.navbar,
+.navbar-nav
+{
+  background-color: #8cce24!important;
 }
-
-#login-box {
-  background-color: #a6ff8b3f;
-  max-width: 400px;
-  text-align: center;
-  border-radius: 10px;
-  flex-direction: row;
-  margin: 20px auto;
-  padding: 34px 0px 10px 0px;
-  display: block;
-  animation: home .5s;
+#login-box
+{
+  background-color:#a6ff8b3f;
+  max-width:400px;
+  text-align:center;
+  border-radius:10px;
+  flex-direction:row;
+  padding:5px 0 10px 0;
+  display:block;
+  animation:home .5s;
 }
-
-#pass_login,#nome_login {
-  border: none;
-  padding: 10px 0px 10px 4px;
-  color: #224407;
-  font-weight: bold;
-  font-size: 15px;
+#nome_login,#pass_login
+{
+  border:none;
+  padding:10px 0 10px 4px;
+  color:#224407;
+  font-weight:700;
+  font-size:15px;
 }
-
-
-#pass_login:focus, #nome_login:focus {
-  background-color: #eaffc8;
-  border-style: none;
-  outline: none;
-  transition: 0.5s;
-  box-shadow: 0 0 5px #ffffff;
+#nome_login:focus,#pass_login:focus
+{
+  background-color:#eaffc8;
+  border-style:none;
+  outline:0;
+  transition:.5s;
+  box-shadow:0 0 5px #fff;
 }
-
-#enter {
-  color: white;
-  background-color: #224407;
-  border-radius: 5px;
-  font-size: 20px;
-  border: none;
-  padding: 10px 15px;
-  font-weight: bold;
-  transition: 0.5s;
+#enter
+{
+  color:#fff;
+  background-color:#224407;
+  border-radius:5px;
+  font-size:20px;
+  border:none;
+  padding:10px 15px;
+  font-weight:700;
+  transition:.5s;
 }
-
-#enter:hover {
-  background-color: #8CCE24;
-  transition: 0.5s;
-  color: #224407;
+#enter:hover
+{
+  background-color:#8cce24;
+  transition:.5s;
+  color:#224407;
 }
-
-#index {
-  background-color: #3e7a0d;
-  font-family: bahnschrift;
-  color: white;
+#index
+{
+  background-color:#3e7a0d;
+  font-family:bahnschrift;
+  color:#fff;
 }
-
-#page {
-  display: none;
-  animation: home .5s;
+#page
+{
+  display:none;
+  animation:home .5s;
 }
-
-@keyframes home {
-  from {
-      opacity: 0;
-      transform: translate3d(0, 300px, 0);
-      background-color: black;
+@keyframes home
+{
+  from
+  {
+    opacity:0;
+    transform:translate3d(0,300px,0);
+    background-color:#000;
   }
-
-  to {
-      opacity: 1;
-      transform: translate3d(0, 0, 0);
+  to
+  {
+    opacity:1;
+    transform:translate3d(0,0,0);
   }
 }
